@@ -16,10 +16,10 @@ set title
 set nf=""
 
 " 自動的に閉じ括弧を入力
-"imap { {}<LEFT>
-"imap [ []<LEFT>
-"imap ( ()<LEFT>
-"imap < <><LEFT>
+" imap { {}<LEFT>
+" imap [ []<LEFT>
+" imap ( ()<LEFT>
+" imap < <><LEFT>
 
 " ステータス行に現在のgitブランチを表示する
 set statusline+=%{fugitive#statusline()}
